@@ -3,14 +3,14 @@
 using namespace std;
 
 col_entier::col_entier(int taille) {
-    int *T = new int[taille];
-    this->T = T;
+    int *Tab = new int[taille];
+    this->T = Tab;
     this->nbe = 0;
     this->taille = taille;
     cout << " -- collection d'entier construite avec succees ! -- " << endl;
 }
 
-add_entier(int value) {
+void col_entier::add_entier(int value) {
     if (this->nbe < this->taille) {
         this->T[this->nbe] = value;
         this->nbe++;
