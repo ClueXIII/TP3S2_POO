@@ -8,7 +8,7 @@ class col_entier {
     int taille ; // le nombre d’emplacements disponibles à l’instant t=0
 public :
     col_entier(int taille);
-    add_entier
+    add_entier(int value);
 };
 
 
