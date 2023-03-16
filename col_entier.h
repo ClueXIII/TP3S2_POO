@@ -12,6 +12,7 @@ public :
     void add_entier(int value);
     void afficher_col();
     bool inserer(int pos);
+    void trierI();
 };
 
 #endif

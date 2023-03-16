@@ -48,3 +48,9 @@ bool col_entier::inserer(int pos_val) {
     this ->T[0] = val; //on insere donc la val a la premiere case
     return true; //on retourne true pour indiquer que l'insertion a bien ete effectuee
 }
+
+void col_entier::trierI() {
+    for (int i = 0; i < this->nbe; i++) { //on parcours le tableau
+        this->inserer(i); //on insere la val de la case actuelle a sa place dans le tableau
+    }
+}
