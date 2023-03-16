@@ -18,6 +18,13 @@ cout << "-------------------------------------4---------------------------------
         col_entier B(A); //creation d'une collection B par copie de A
         B.afficher_col(); //affichage de la collection B pour vérifier si elle est la même que la A
 cout << "-------------------------------------5/a-------------------------------------" << endl;
-        
+        cout << "on tri le tableau B manuellement au moyen de la methode inserer : " << endl;
+        B.inserer(1);
+        B.inserer(2);
+        B.inserer(3);
+        B.inserer(4);
+        B.afficher_col(); //affichage de la collection B pour vérifier si l'insertion a bien été effectuée
+cout << "-------------------------------------5/b-------------------------------------" << endl;
+
     return 0;
 };

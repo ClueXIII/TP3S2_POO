@@ -11,6 +11,7 @@ public :
     col_entier(const col_entier &col);
     void add_entier(int value);
     void afficher_col();
+    bool inserer(int pos);
 };
 
 #endif
