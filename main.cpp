@@ -20,14 +20,11 @@ cout << "-------------------------------------4---------------------------------
         cout << "on affiche la collection B copiee sur A : " << endl;
         B.afficher_col(); //affichage de la collection B pour vérifier si elle est la même que la A
 cout << "-------------------------------------5/a-------------------------------------" << endl;
-        cout << "on tri le tableau B manuellement au moyen de la methode inserer : " << endl;
-        B.inserer(1);
-        B.inserer(2);
-        B.inserer(3);
-        B.inserer(4);
-        B.afficher_col(); //affichage de la collection B pour vérifier si l'insertion a bien été effectuée
+        cout << "test impossible, la methode inserer est privee" << endl;
 cout << "-------------------------------------5/b-------------------------------------" << endl;
-        A.trierI(); //on trie la collection A
+        cout << "test impossible, la methode trierI est privee" << endl;
+cout << "-------------------------------------5/c-------------------------------------" << endl;
+        A.trie_insertion(); //on trie la collection A
         cout << "on affiche la collection A triee : " << endl;
         A.afficher_col(); //affichage de la collection A pour vérifier si le tri a bien été effectué
     return 0;

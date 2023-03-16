@@ -18,9 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a907e811-cd3c-4970-a84b-23cb08073ca7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/col_entier.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/col_entier.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/col_entier.h" beforeDir="false" afterPath="$PROJECT_DIR$/col_entier.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,7 @@
       <workItem from="1678574822474" duration="1453000" />
       <workItem from="1678798766417" duration="15000" />
       <workItem from="1678821014588" duration="18000" />
-      <workItem from="1678969196781" duration="4099000" />
+      <workItem from="1678969196781" duration="5012000" />
     </task>
     <servers />
   </component>

@@ -6,13 +6,14 @@ class col_entier {
     int *T;
     int nbe; // le nombre d’éléments à un instant donné
     int taille ; // le nombre d’emplacements disponibles à l’instant t=0
+    bool inserer(int pos);
+    void trierI(int pos);
 public :
     col_entier(int taille);
     col_entier(const col_entier &col);
     void add_entier(int value);
     void afficher_col();
-    bool inserer(int pos);
-    void trierI();
+    void trie_insertion();
 };
 
 #endif

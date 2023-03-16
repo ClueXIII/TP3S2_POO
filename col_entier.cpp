@@ -32,6 +32,7 @@ col_entier::col_entier(const col_entier &col) {
     this->T = col.T;
     this->nbe = col.nbe;
     this->taille = col.taille;
+    cout << " -- collection d'entier copiee avec succees ! -- " << endl;
 }
 
 bool col_entier::inserer(int pos_val) {
@@ -49,8 +50,17 @@ bool col_entier::inserer(int pos_val) {
     return true; //on retourne true pour indiquer que l'insertion a bien ete effectuee
 }
 
-void col_entier::trierI() {
-    for (int i = 0; i < this->nbe; i++) { //on parcours le tableau
-        this->inserer(i); //on insere la val de la case actuelle a sa place dans le tableau
+void col_entier::trierI(int pos) {
+    if (pos >= this->nbe) {
+        return; // condition d'arrêt de la récursion
     }
+    this->inserer(pos); // on insère la valeur de la case actuelle à sa place dans le tableau
+    this->trierI(pos+1); // on appelle la fonction récursivement avec la case suivante
 }
+
+void col_entier::trie_insertion() {
+    this->trierI(0);
+    cout << " -- tri par insertion effectue avec succes ! -- " << endl;
+}
+
+
